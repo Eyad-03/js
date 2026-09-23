@@ -1,12 +1,19 @@
 let number = "123456"
 
-for (let i=number.length-1;i>=0;i--)
+function reverse()
 {
 
-document.write(number[i])
-
+    for (let i=number.length-1;i>=0;i--)
+    {
+            
+    document.write(number[i])
+                
+    }
 
 }
+
+reverse();
+
 document.write("<br/>")
 document.write("<br/>")
 document.write("<br/>")
@@ -16,16 +23,14 @@ for(let i=0;i<=15;i++)
 {
     if(i%2==0)
     {
-        document.write(i)
-        document.write("is even")
-        document.write("<br/>")
+        console.log(i)
+        console.log("is even")
     }
 
     else
     {
-        document.write(i)
-        document.write("is odd")
-        document.write("<br/>")
+        console.log(i)
+        console.log("is odd")
     }
 
 
@@ -33,7 +38,7 @@ for(let i=0;i<=15;i++)
 
 
 
-let numstr = "025468"
+let numstr =prompt("enter number please")
 let result = ""
 
 for(let i=0;i<numstr.length;i++)
