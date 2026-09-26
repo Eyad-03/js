@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/task7/css/style.css">
+</head>
+<body>
+
+    <div class="flex-box">
+
+    <div>
+
+        <label>UserName</label> <br/>
+        <input placeholder="username" type="text" id="username"/> <br/>
+
+
+        <label>Password</label> <br/>
+        <input placeholder="password" type="password" id="password"/> <br/>
+
+
+        <label>Phone number</label> <br/>
+        <input placeholder="phone" type="text" id="phone"/> <br/>
+
+        <label>Select Order</label> <br/>
+        <select id="order">
+            <option value="Burger">Burger</option>
+            <option value="Zinger">Zinger</option>
+            <option value="Shawarma">Shawarma</option>
+        </select>
+
+        <button type="submit" onclick="validate()">submit</button>
+
+    </div>
+
+    <div>
+
+        <P id="text"></P>
+        
+        <p id="selectedOrder"> </p>
+        <p id="savedUsername"></p>
+        
+    </div>
+</div>
+
+    <script src="/task7/js/index.js"></script>
+</body>
+</html>
