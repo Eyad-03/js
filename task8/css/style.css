@@ -1,0 +1,116 @@
+
+    body {
+        background: #f4f6f8;
+        min-height: 100vh;
+        padding: 40px 20px;
+    }
+
+    body > label,
+    body > input,
+    body > textarea,
+    body > button {
+        display: block;
+        width: 500px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    label {
+        color: #333;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 8px !important;
+    }
+
+    input,
+    textarea {
+        padding: 14px;
+        border: 1px solid #d1d5db;
+        border-radius: 8px;
+        background: white;
+        font-size: 16px;
+        transition: 0.3s;
+    }
+
+    input:focus,
+    textarea:focus {
+        border-color: #4f46e5;
+        box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.12);
+    }
+
+    textarea {
+        min-height: 120px;
+        resize: vertical;
+    }
+
+    #btn {
+        border: none;
+        background: #4f46e5;
+        color: white;
+        padding: 14px;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    #btn:hover {
+        background: #4338ca;
+        transform: translateY(-2px);
+    }
+
+    #cards {
+        width: 900px;
+        max-width: 100%;
+        margin: 40px auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+    }
+
+    .do-card {
+        background: white;
+        padding: 22px;
+        border-radius: 12px;
+        border-left: 5px solid #4f46e5;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        transition: 0.3s;
+    }
+
+    .do-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+    }
+
+    .title-card {
+        color: #222;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 12px;
+    }
+
+    .description-card {
+        color: #666;
+        font-size: 15px;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        word-break: break-word;
+    }
+
+    .do-card button {
+        background: #ef4444;
+        color: white;
+        border: none;
+        padding: 9px 16px;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 14px;
+        transition: 0.3s;
+    }
+
+    .do-card button:hover {
+        background: #dc2626;
+    }
+
