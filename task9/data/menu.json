@@ -1,0 +1,34 @@
+{
+  "menu": [
+    {
+      "mealName": "Chicken Burger",
+      "price": 5.5,
+      "availability": true
+    },
+    {
+      "mealName": "Margherita Pizza",
+      "price": 7.0,
+      "availability": true
+    },
+    {
+      "mealName": "Beef Shawarma",
+      "price": 4.25,
+      "availability": false
+    },
+    {
+      "mealName": "Caesar Salad",
+      "price": 3.75,
+      "availability": true
+    },
+    {
+      "mealName": "Pasta Alfredo",
+      "price": 6.5,
+      "availability": true
+    },
+    {
+      "mealName": "Fish Sandwich",
+      "price": 5.0,
+      "availability": false
+    }
+  ]
+}
