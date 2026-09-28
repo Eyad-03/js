@@ -5,7 +5,7 @@ fetch("../data/menu.json")
 .then(response =>response.json())
 .then(data=>{
 
-
+localStorage.setItem("menu",JSON.stringify(data.menu))
     for (let i=0;i<data.menu.length;i++)
     {
         menu.innerHTML += `
